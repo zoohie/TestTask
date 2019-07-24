@@ -1,0 +1,34 @@
+{
+    "name": "playable-ad-template",
+    "version": "1.0.0",
+    "private": true,
+    "description": "",
+    "main": "./dist/game.js",
+    "scripts": {
+        "start": "webpack-dev-server --open",
+        "dev": "webpack --config webpack.config.js --progress --colors --watch -d",
+        "build": "webpack --config webpack.config.js --progress --colors -p"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "babel-polyfill": "^6.26.0",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-stage-0": "^6.24.1",
+        "babel-runtime": "^6.26.0",
+        "brfs": "^2.0.2",
+        "cross-env": "^5.2.0",
+        "es6-tween": "^5.5.2",
+        "json-loader": "^0.5.7",
+        "pixi-particles": "^4.1.0",
+        "pixi.js": "^4.8.7",
+        "transform-loader": "^0.2.4",
+        "webpack": "^4.29.6",
+        "webpack-cli": "^3.3.0",
+        "webpack-dev-server": "^3.2.1"
+    },
+    "optionalDependencies": {
+        "win-node-env": "^0.4.0"
+    }
+}
